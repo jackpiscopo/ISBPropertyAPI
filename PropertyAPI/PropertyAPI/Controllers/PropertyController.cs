@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PropertyAPI.Data;
 
 namespace PropertyAPI.Controllers
 {
@@ -7,19 +9,17 @@ namespace PropertyAPI.Controllers
     [ApiController]
     public class PropertyController : ControllerBase
     {
+        private readonly DataContext _context;
+
+        public PropertyController(DataContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet]
         public async Task<ActionResult<List<Property>>> GetProperties()
         {
-            return new List<Property>
-            { 
-                new Property
-                {
-                    PropertyName = "3 Bedroom Apartment",
-                    PropertyAddress = "1 Road",
-                    Price = 300000f,
-                    RegistrationDate = new DateTime(new DateOnly(2024, 3, 31), new TimeOnly(0))
-                }
-            };
+            return Ok(await _context.Properties.ToListAsync());
         }
     }
 }
