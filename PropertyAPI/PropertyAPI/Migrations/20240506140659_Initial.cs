@@ -15,7 +15,7 @@ namespace PropertyAPI.Migrations
                 name: "Properties",
                 columns: table => new
                 {
-                    PropertyId = table.Column<int>(type: "int", nullable: false)
+                    PropertyId = table.Column<int>(type: "uniqueidentifier", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PropertyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PropertyAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),

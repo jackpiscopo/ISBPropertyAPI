@@ -2,7 +2,7 @@
 {
     public class Property
     {
-        public int PropertyId { get; set; }
+        public Guid PropertyId { get; set; }
         public string PropertyName { get; set; }
         public string PropertyAddress { get; set; }
         public float Price { get; set; }
