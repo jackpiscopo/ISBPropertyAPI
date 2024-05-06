@@ -11,13 +11,13 @@ namespace PropertyAPI.Controllers
         public async Task<ActionResult<List<Property>>> GetProperties()
         {
             return new List<Property>
-            {
+            { 
                 new Property
                 {
                     PropertyName = "3 Bedroom Apartment",
-                    PropertyAddress = "3 Road",
+                    PropertyAddress = "1 Road",
                     Price = 300000f,
-                    RegistrationDate = DateTime.Today
+                    RegistrationDate = new DateTime(new DateOnly(2024, 3, 31), new TimeOnly(0))
                 }
             };
         }

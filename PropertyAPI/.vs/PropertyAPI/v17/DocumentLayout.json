@@ -1,29 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\propertyapi\\propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\downloads\\propertyng\\propertyapi\\propertyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\propertyapi\\propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\downloads\\propertyng\\propertyapi\\propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\propertyapi\\propertyapi\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\propertyapi\\propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\propertyapi\\propertyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF795D7F-5B17-4D3D-8045-B30A49539228}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\downloads\\propertyng\\propertyapi\\propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,79 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs",
-              "RelativeToolTip": "PropertyAPI\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Program.cs",
+              "RelativeToolTip": "PropertyAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T15:16:58.049Z",
+              "WhenOpened": "2024-05-06T11:56:24.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Property.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Property.cs",
+              "ToolTip": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Property.cs",
+              "RelativeToolTip": "PropertyAPI\\Property.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:02:30.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
               "RelativeToolTip": "PropertyAPI\\Controllers\\PropertyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:59:54.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Property.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Property.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Property.cs",
-              "RelativeToolTip": "PropertyAPI\\Property.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:59:07.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Contact.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Contact.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Contact.cs",
-              "RelativeToolTip": "PropertyAPI\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:57:15.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Program.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\PropertyAPI\\PropertyAPI\\Program.cs",
-              "RelativeToolTip": "PropertyAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:57:12.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AQIAAPoAAAAAAAAAAAAwwAkBAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-05-02T14:57:01.313Z",
+              "WhenOpened": "2024-05-05T17:58:29.139Z",
               "EditorCaption": ""
             },
             {

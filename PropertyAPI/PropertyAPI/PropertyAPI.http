@@ -1,4 +1,4 @@
-@PropertyAPI_HostAddress = http://localhost:5037
+@PropertyAPI_HostAddress = http://localhost:5297
 
 GET {{PropertyAPI_HostAddress}}/weatherforecast/
 Accept: application/json
