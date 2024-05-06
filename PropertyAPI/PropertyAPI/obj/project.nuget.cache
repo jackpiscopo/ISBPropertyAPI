@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WGOFw496f0fmH+5w7BYp6TylNQvWm99sVTKl4WJiyjMx5ijcUUGzo09gK1vrakE9Qe0qRaYG1Y0dVyodhcy/Og==",
+  "dgSpecHash": "7v1BH/rny/q7cTPt7danavToTFQPlEMQ8suZmEilu8e30SFkCqDlQahOXrJ1tmFYciX6W0712uofsBgtG3Y1lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jackp\\Downloads\\PropertyNG\\PropertyAPI\\PropertyAPI\\PropertyAPI.csproj",
+  "projectFilePath": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jackp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\jackp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
