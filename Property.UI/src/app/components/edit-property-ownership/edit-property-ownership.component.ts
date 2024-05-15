@@ -57,14 +57,14 @@ export class EditPropertyOwnershipComponent implements OnInit {
     }
   }
 
-  // This function updates the actual property ID based on selection
+  // This function updates the actual contact ID based on selection
   updateContactId(): void {
     if (this.propertyOwnership != undefined) {
       if (this.selectedContactId === 'Other') {
-        // When 'Other' is selected, 'propertyOwnership.propertyId' can be edited freely by the user
+        // When 'Other' is selected, 'propertyOwnership.contactId' can be edited freely by the user
         this.propertyOwnership.contactId = '';  // Reset or allow input
       } else {
-        // Any other selection directly updates the property ID
+        // Any other selection directly updates the contact ID
         this.propertyOwnership.contactId = this.selectedContactId;
       }
     }

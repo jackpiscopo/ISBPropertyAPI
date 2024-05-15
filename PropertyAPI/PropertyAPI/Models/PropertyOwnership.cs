@@ -1,4 +1,4 @@
-﻿namespace PropertyAPI
+﻿namespace PropertyAPI.Models
 {
     public class PropertyOwnership
     {
@@ -8,7 +8,7 @@
         public DateTime EffectiveFrom { get; set; }
         public DateTime EffectiveTill { get; set; }
         public decimal AcquisitionPrice { get; set; }
-        
+
         // Navigation properties
         public virtual Contact Contact { get; set; }
         public virtual Property Property { get; set; }

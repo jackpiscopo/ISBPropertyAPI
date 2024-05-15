@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PropertyAPI.Data;
+using PropertyAPI.Models;
 
 namespace PropertyAPI.Controllers
 {
@@ -19,50 +20,6 @@ namespace PropertyAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CombinedPropertyDetailDto>>> GetOwnerships()
         {
-            /*var details = await _context.Properties.Include(p => p.PropertyOwnerships)
-                .ThenInclude(po => po.Contact)
-                .Select(p => new CombinedPropertyDetailDto
-                {
-                    Id = p.PropertyOwnerships
-                        .Select(po => po.Id).FirstOrDefault(),
-                    PropertyId = p.PropertyId,
-                    PropertyName = p.PropertyName,
-                    AskingPrice = (decimal)p.Price,
-                    Owner = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.Contact.FirstName + " " + po.Contact.LastName).FirstOrDefault(),
-                    DateOfPurchase = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.EffectiveFrom).FirstOrDefault(),
-                    SoldPriceInEur = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice).FirstOrDefault(),
-                    SoldPriceInUsd = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice * 1.2M).FirstOrDefault() // Example currency conversion
-                }).ToListAsync();*/
-
-            /*var details = await _context.Properties.Include(p => p.PropertyOwnerships)
-                .ThenInclude(po => po.Contact)
-                .Select(p => new
-                {
-                    Property = p,
-                    Owner = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => new { po.Contact.FirstName, po.Contact.LastName }).FirstOrDefault()
-                })
-                .Where(x => !string.IsNullOrEmpty(x.Owner.FirstName) && !string.IsNullOrEmpty(x.Owner.LastName)) // Filter out empty owners
-                .Select(x => new CombinedPropertyDetailDto
-                {
-                    Id = x.Property.PropertyOwnerships
-                        .Select(po => po.Id).FirstOrDefault(),
-                    PropertyId = x.Property.PropertyId,
-                    PropertyName = x.Property.PropertyName,
-                    AskingPrice = (decimal)x.Property.Price,
-                    Owner = x.Owner.FirstName + " " + x.Owner.LastName,
-                    DateOfPurchase = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.EffectiveFrom).FirstOrDefault(),
-                    SoldPriceInEur = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice).FirstOrDefault(),
-                    SoldPriceInUsd = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice * 1.2M).FirstOrDefault()
-                }).ToListAsync();*/
-
             var details = await _context.PropertyOwnership
                 .Include(po => po.Property)
                     .ThenInclude(p => p.PropertyOwnerships)
@@ -96,32 +53,6 @@ namespace PropertyAPI.Controllers
 
             _context.PropertyOwnership.Add(ownership);
             await _context.SaveChangesAsync();
-            //return CreatedAtAction("GetOwnership", new { id = ownership.Id }, ownership);
-            //return Ok(await _context.Properties.ToListAsync());
-            /*var details = await _context.Properties.Include(p => p.PropertyOwnerships)
-                .ThenInclude(po => po.Contact)
-                .Select(p => new
-                {
-                    Property = p,
-                    Owner = p.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => new { po.Contact.FirstName, po.Contact.LastName }).FirstOrDefault()
-                })
-                .Where(x => !string.IsNullOrEmpty(x.Owner.FirstName) && !string.IsNullOrEmpty(x.Owner.LastName)) // Filter out empty owners
-                .Select(x => new CombinedPropertyDetailDto
-                {
-                    Id = x.Property.PropertyOwnerships
-                        .Select(po => po.Id).FirstOrDefault(),
-                    PropertyId = x.Property.PropertyId,
-                    PropertyName = x.Property.PropertyName,
-                    AskingPrice = (decimal)x.Property.Price,
-                    Owner = x.Owner.FirstName + " " + x.Owner.LastName,
-                    DateOfPurchase = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.EffectiveFrom).FirstOrDefault(),
-                    SoldPriceInEur = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice).FirstOrDefault(),
-                    SoldPriceInUsd = x.Property.PropertyOwnerships.OrderByDescending(po => po.EffectiveFrom)
-                        .Select(po => po.AcquisitionPrice * 1.2M).FirstOrDefault()
-                }).ToListAsync();*/
 
             var details = await _context.PropertyOwnership
                 .Include(po => po.Property)
@@ -167,13 +98,12 @@ namespace PropertyAPI.Controllers
                 return NotFound();
             }
 
-            //ownership.ContactId = ownershipDto.ContactId;
             ownership.EffectiveFrom = ownershipDto.EffectiveFrom;
             ownership.EffectiveTill = ownershipDto.EffectiveTill ?? DateTime.Now;
             ownership.AcquisitionPrice = ownershipDto.AcquisitionPrice;
 
             await _context.SaveChangesAsync();
-            //return NoContent();
+            
             var details = await _context.PropertyOwnership
                 .Include(po => po.Property)
                     .ThenInclude(p => p.PropertyOwnerships)
@@ -204,7 +134,7 @@ namespace PropertyAPI.Controllers
 
             _context.PropertyOwnership.Remove(ownership);
             await _context.SaveChangesAsync();
-            //return NoContent();
+            
             var details = await _context.PropertyOwnership
                 .Include(po => po.Property)
                     .ThenInclude(p => p.PropertyOwnerships)

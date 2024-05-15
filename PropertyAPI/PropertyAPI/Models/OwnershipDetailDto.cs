@@ -1,4 +1,4 @@
-﻿namespace PropertyAPI
+﻿namespace PropertyAPI.Models
 {
     public class OwnershipDetailDto
     {

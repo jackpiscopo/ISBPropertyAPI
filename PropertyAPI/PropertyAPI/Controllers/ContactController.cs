@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PropertyAPI.Data;
+using PropertyAPI.Models;
 
 namespace PropertyAPI.Controllers
 {
@@ -35,7 +36,6 @@ namespace PropertyAPI.Controllers
 
             _context.Contact.Add(contact);
             await _context.SaveChangesAsync();
-            //return CreatedAtAction("GetContact", new { id = contact.Id }, contact);
             return Ok(await _context.Contact.ToListAsync());
         }
 
@@ -65,7 +65,6 @@ namespace PropertyAPI.Controllers
             contact.EmailAddress = contactDto.EmailAddress;
 
             await _context.SaveChangesAsync();
-            //return NoContent();
             return Ok(await _context.Contact.ToListAsync());
         }
 
@@ -80,21 +79,12 @@ namespace PropertyAPI.Controllers
 
             _context.Contact.Remove(contact);
             await _context.SaveChangesAsync();
-            //return NoContent();
             return Ok(await _context.Contact.ToListAsync());
         }
 
         [HttpGet("contactsDropdown")]
         public async Task<ActionResult<List<ContactDto>>> GetContactsDropdown()
         {
-            //return Ok(await _context.Properties.ToListAsync());
-            // Query the database and project each Property into a formatted string
-            /*var propertyDropdownItems = await _context.Properties
-                .OrderByDescending(p => p.RegistrationDate)
-                .Take(10)
-                .Select(p => p.PropertyName + " (" + p.PropertyId + ")")
-                .ToListAsync();*/
-
             var contactDropdownItems = await _context.Contact
                 .Take(10)
                 .Select(p => new DropdownDto

@@ -3,91 +3,71 @@
   "WorkspaceRootPath": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\ownershipdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\ownershipdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\propertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\propertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\propertypricechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\propertypricechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\propertyownership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\propertyownership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\pricechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\pricechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\dropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\dropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\models\\combinedpropertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\models\\combinedpropertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\dropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\dropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\ownershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\ownershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\propertyownership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\propertyownership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\ownershipdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\ownershipdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\Property.UI\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\propertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\propertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\propertiesnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\propertiesnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\pricechangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\pricechangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\combinedpropertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\combinedpropertydetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\combineddetailsnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\combineddetailsnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\propertydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\propertydetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\pricechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\pricechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\migrations\\20240510133506_removepropertyid1columns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\migrations\\20240510133506_removepropertyid1columns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\controllers\\contactsnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\controllers\\contactsnewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\propertypricechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|solutionrelative:propertyapi\\propertypricechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9DCF7D2-EC37-44C2-8FB9-C42FD81A730D}|PropertyAPI\\PropertyAPI.csproj|c:\\users\\jackp\\source\\repos\\isbpropertyapi\\propertyapi\\propertyapi\\migrations\\20240506183923_updatepropertypricechangeforeignkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,108 +113,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\PropertyController.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAAAIwOQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T17:58:29.139Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DropdownDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\DropdownDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\DropdownDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\DropdownDto.cs",
-              "RelativeToolTip": "PropertyAPI\\DropdownDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:50:39.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PropertyOwnership.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyOwnership.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\PropertyOwnership.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyOwnership.cs",
-              "RelativeToolTip": "PropertyAPI\\PropertyOwnership.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T11:11:55.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OwnershipController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\OwnershipController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\OwnershipController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\OwnershipController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\OwnershipController.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAAAUwN8AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:13:39.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactController.cs*",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\ContactController.cs*",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAUwGUAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:09:47.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs",
-              "RelativeToolTip": "PropertyAPI\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T13:45:32.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Contact.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Contact.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Contact.cs",
-              "RelativeToolTip": "PropertyAPI\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:45:59.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "OwnershipDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\OwnershipDetailDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\OwnershipDetailDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\OwnershipDetailDto.cs",
-              "RelativeToolTip": "PropertyAPI\\OwnershipDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\OwnershipDetailDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\OwnershipDetailDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\OwnershipDetailDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\OwnershipDetailDto.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T09:55:51.999Z",
@@ -242,7 +130,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PriceChangeDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PriceChangeDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\PriceChangeDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PriceChangeDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\PriceChangeDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:01:58.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\Property.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\Property.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\Property.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:02:30.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyDetailDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\PropertyDetailDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyDetailDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\PropertyDetailDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:46:02.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\PropertyDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\PropertyDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:59:43.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyPriceChange.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyPriceChange.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\PropertyPriceChange.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyPriceChange.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\PropertyPriceChange.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T17:52:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyOwnership.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyOwnership.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\PropertyOwnership.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\PropertyOwnership.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\PropertyOwnership.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:11:55.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DropdownDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\DropdownDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\DropdownDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\DropdownDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\DropdownDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:50:39.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\Contact.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\Contact.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T17:45:59.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ContactDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\ContactDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\ContactDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\ContactDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\ContactDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:00:36.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CombinedPropertyDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\CombinedPropertyDetailDto.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Models\\CombinedPropertyDetailDto.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Models\\CombinedPropertyDetailDto.cs*",
+              "RelativeToolTip": "PropertyAPI\\Models\\CombinedPropertyDetailDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:22:34.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyController.cs*",
+              "RelativeToolTip": "PropertyAPI\\Controllers\\PropertyController.cs*",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAH8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:58:29.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OwnershipController.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\OwnershipController.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\OwnershipController.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\OwnershipController.cs*",
+              "RelativeToolTip": "PropertyAPI\\Controllers\\OwnershipController.cs*",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAwwIkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:13:39.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactController.cs*",
+              "RelativeToolTip": "PropertyAPI\\Controllers\\ContactController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:09:47.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "PropertyAPI\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Data\\DataContext.cs*",
+              "RelativeToolTip": "PropertyAPI\\Data\\DataContext.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T13:45:32.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "app.component.html",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\Property.UI\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "..\\Property.UI\\src\\app\\app.component.html",
@@ -255,128 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PropertyDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\PropertyDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyDto.cs",
-              "RelativeToolTip": "PropertyAPI\\PropertyDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:59:43.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ContactDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\ContactDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\ContactDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\ContactDto.cs",
-              "RelativeToolTip": "PropertyAPI\\ContactDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:00:36.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Property.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Property.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Property.cs",
-              "RelativeToolTip": "PropertyAPI\\Property.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:02:30.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PropertyDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyDetailDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\PropertyDetailDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyDetailDto.cs",
-              "RelativeToolTip": "PropertyAPI\\PropertyDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:46:02.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PropertiesNewController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertiesNewController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PropertiesNewController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertiesNewController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\PropertiesNewController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:09:08.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PriceChangeController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PriceChangeController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PriceChangeController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PriceChangeController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\PriceChangeController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAlwB4AAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:56:38.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CombinedPropertyDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\CombinedPropertyDetailDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\CombinedPropertyDetailDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\CombinedPropertyDetailDto.cs",
-              "RelativeToolTip": "PropertyAPI\\CombinedPropertyDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:22:34.484Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "CombinedDetailsNewController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\CombinedDetailsNewController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\CombinedDetailsNewController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\CombinedDetailsNewController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\CombinedDetailsNewController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:19:08.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PropertyDetailController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyDetailController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\PropertyDetailController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\PropertyDetailController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\PropertyDetailController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAQwHoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:53:15.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PriceChangeDto.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PriceChangeDto.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\PriceChangeDto.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PriceChangeDto.cs",
-              "RelativeToolTip": "PropertyAPI\\PriceChangeDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:01:58.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "20240510133506_RemovePropertyId1Columns.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240510133506_RemovePropertyId1Columns.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240510133506_RemovePropertyId1Columns.cs",
@@ -388,31 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ContactsNewController.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactsNewController.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\Controllers\\ContactsNewController.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Controllers\\ContactsNewController.cs",
-              "RelativeToolTip": "PropertyAPI\\Controllers\\ContactsNewController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBwAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:11:56.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PropertyPriceChange.cs",
-              "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyPriceChange.cs",
-              "RelativeDocumentMoniker": "PropertyAPI\\PropertyPriceChange.cs",
-              "ToolTip": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyPriceChange.cs",
-              "RelativeToolTip": "PropertyAPI\\PropertyPriceChange.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:52:48.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "20240506183923_UpdatePropertyPriceChangeForeignKey.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506183923_UpdatePropertyPriceChangeForeignKey.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506183923_UpdatePropertyPriceChangeForeignKey.cs",
@@ -424,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "20240506175915_AddContactsAndOwnership.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506175915_AddContactsAndOwnership.Designer.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506175915_AddContactsAndOwnership.Designer.cs",
@@ -436,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Program.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Program.cs",
@@ -448,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "20240506171549_ChangeColumnTypeToGuid.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506171549_ChangeColumnTypeToGuid.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506171549_ChangeColumnTypeToGuid.cs",
@@ -460,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "20240506173331_ChangeRegistrationDateColumnType.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506173331_ChangeRegistrationDateColumnType.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506173331_ChangeRegistrationDateColumnType.cs",
@@ -472,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "20240506173331_ChangeRegistrationDateColumnType.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506173331_ChangeRegistrationDateColumnType.Designer.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506173331_ChangeRegistrationDateColumnType.Designer.cs",
@@ -484,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "20240506171549_ChangeColumnTypeToGuid.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\Migrations\\20240506171549_ChangeColumnTypeToGuid.Designer.cs",
               "RelativeDocumentMoniker": "PropertyAPI\\Migrations\\20240506171549_ChangeColumnTypeToGuid.Designer.cs",
@@ -496,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\appsettings.json",
               "RelativeDocumentMoniker": "PropertyAPI\\appsettings.json",
@@ -508,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "PropertyAPI.csproj",
               "DocumentMoniker": "C:\\Users\\jackp\\source\\repos\\ISBPropertyAPI\\PropertyAPI\\PropertyAPI\\PropertyAPI.csproj",
               "RelativeDocumentMoniker": "PropertyAPI\\PropertyAPI.csproj",
