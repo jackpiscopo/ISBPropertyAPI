@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PropertyAPI.Data;
 
@@ -11,9 +12,11 @@ using PropertyAPI.Data;
 namespace PropertyAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20240506193439_FixingRequestRecursion")]
+    partial class FixingRequestRecursion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -133,7 +136,7 @@ namespace PropertyAPI.Migrations
             modelBuilder.Entity("PropertyAPI.PropertyOwnership", b =>
                 {
                     b.HasOne("PropertyAPI.Contact", "Contact")
-                        .WithMany("PropertyOwnerships")
+                        .WithMany()
                         .HasForeignKey("ContactId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -158,11 +161,6 @@ namespace PropertyAPI.Migrations
                         .IsRequired();
 
                     b.Navigation("Property");
-                });
-
-            modelBuilder.Entity("PropertyAPI.Contact", b =>
-                {
-                    b.Navigation("PropertyOwnerships");
                 });
 
             modelBuilder.Entity("PropertyAPI.Property", b =>
