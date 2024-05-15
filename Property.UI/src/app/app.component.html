@@ -1,0 +1,94 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Property Inventory System</h1>
+
+      <h2>Properties</h2>
+      <button (click)="initNewProperty()" class="btn btn-primary add-button">Create New Property</button>
+
+      <table class="table w-100">
+        <thead>
+        <th>Property ID</th>
+        <th>Property Name</th>
+        <th>Property Address</th>
+        <th>Price</th>
+        <th>Registration Date</th>
+        <th>Price Last Modified</th>
+        <th class="edit-column"></th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let property of properties">
+            <td>{{ property.propertyId }}</td>
+            <td>{{ property.propertyName }}</td>
+            <td>{{ property.propertyAddress }}</td>
+            <td>{{ property.price }}</td>
+            <td>{{ property.registrationDate }}</td>
+            <td>{{ property.priceLastModified }}</td>
+            <td><button (click)="editProperty(property)" class="btn btn-secondary">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <app-edit-property [property]="propertyToEdit"
+                         (propertiesUpdated)="updatePropertyList($event)"></app-edit-property>
+
+      <h2>Contacts</h2>
+      <button (click)="initNewContact()" class="btn btn-primary add-button">Create New Contact</button>
+
+      <table class="table w-100">
+        <thead>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+        <th class="edit-column"></th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let contact of contacts">
+            <td>{{ contact.id }}</td>
+            <td>{{ contact.firstName }}</td>
+            <td>{{ contact.lastName }}</td>
+            <td>{{ contact.phoneNumber }}</td>
+            <td>{{ contact.emailAddress }}</td>
+            <td><button (click)="editContact(contact)" class="btn btn-secondary">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <app-edit-contact [contact]="contactToEdit"
+                        (contactsUpdated)="updateContactList($event)"></app-edit-contact>
+
+      <h2>Property Ownerships</h2>
+      <button (click)="initNewPropertyOwnership()" class="btn btn-primary add-button">Create New Property Ownership</button>
+
+      <table class="table w-100">
+        <thead>
+        <th>ID</th>
+        <th>Property Name</th>
+        <th>Asking Price</th>
+        <th>Owner</th>
+        <th>Date of Purchase</th>
+        <th>Sold As Price in EUR</th>
+        <th>Sold As Price in USD</th>
+        <th class="edit-column"></th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let propertyOwnership of propertyOwnerships">
+            <td>{{ propertyOwnership.id }}</td>
+            <td>{{ propertyOwnership.propertyName }}</td>
+            <td>{{ propertyOwnership.askingPrice }}</td>
+            <td>{{ propertyOwnership.owner }}</td>
+            <td>{{ propertyOwnership.dateOfPurchase }}</td>
+            <td>{{ propertyOwnership.soldPriceInEur }}</td>
+            <td>{{ propertyOwnership.soldPriceInUsd }}</td>
+            <td><button (click)="editPropertyOwnership(propertyOwnership)" class="btn btn-secondary">Edit</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <app-edit-property-ownership [propertyOwnership]="propertyOwnershipToEdit"
+                                   (propertyOwnershipsUpdated)="updatePropertyOwnershipList($event)"></app-edit-property-ownership>
+    </div>
+  </div>
+</div>

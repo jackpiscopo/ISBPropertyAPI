@@ -1,0 +1,35 @@
+<div *ngIf="property">
+  <div class="form-group row form-row">
+    <div class="col-sm-7">
+      <button (click)="property = undefined" class="btn btn-secondary edit-close-button">x</button>
+    </div>
+  </div>
+  <h2>{{ property.propertyName }}</h2>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Name:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="property.propertyName" placeholder="Name" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Address:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="property.propertyAddress" placeholder="Address" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Price:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="property.price" placeholder="Price" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Registration Date:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="property.registrationDate" placeholder="Registration Date" />
+    </div>
+  </div>
+  <button (click)="updateProperty(property)" class="btn btn-primary edit-form-button" *ngIf="property.propertyId">Save</button>
+  <button (click)="deleteProperty(property)" class="btn btn-primary edit-form-button delete-button" *ngIf="property.propertyId">Delete</button>
+  <button (click)="createProperty(property)" class="btn btn-primary edit-form-button" *ngIf="!property.propertyId">Create</button>
+</div>

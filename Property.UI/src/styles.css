@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.edit-column {
+    width: 1em;
+}
+
+.add-button {
+    margin-bottom: 1em;
+}
+
+.edit-form-button {
+    margin-top: 1em;
+}
+
+.delete-button {
+    margin-left: 1em;
+}
+
+.form-row {
+    margin-top: 1em;
+}
+
+h2 {
+    padding-top: 1em;
+}
+
+.edit-close-button {
+    float: right;
+}
+
+.extra-id-input {
+    margin-bottom: 1em;
+}
+
+.extra-id-select {
+    margin-bottom: 1em;
+}

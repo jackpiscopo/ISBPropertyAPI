@@ -1,0 +1,36 @@
+<div *ngIf="contact">
+  <div class="form-group row form-row">
+    <div class="col-sm-7">
+      <button (click)="contact = undefined" class="btn btn-secondary edit-close-button">x</button>
+    </div>
+  </div>
+  <h2>{{ contact.firstName }}  {{ contact.lastName }}</h2>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">First Name:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="contact.firstName" placeholder="First Name" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Last Name:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="contact.lastName" placeholder="Last Name" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Phone Number:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="contact.phoneNumber" placeholder="Phone Number" class="form-control" />
+    </div>
+  </div>
+  <div class="form-group row form-row">
+    <div class="col-sm-2 col-form-label">Email Address:</div>
+    <div class="col-sm-7">
+      <input [(ngModel)]="contact.emailAddress" placeholder="Email Address" class="form-control" />
+    </div>
+  </div>
+  <button (click)="updateContact(contact)" class="btn btn-primary edit-form-button" *ngIf="contact.id">Save</button>
+  <button (click)="deleteContact(contact)" class="btn btn-primary edit-form-button delete-button" *ngIf="contact.id">Delete</button>
+  <button (click)="createContact(contact)" class="btn btn-primary edit-form-button" *ngIf="!contact.id">Create</button>
+</div>
+
